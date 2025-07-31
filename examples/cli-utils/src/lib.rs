@@ -10,8 +10,8 @@
 
 use std::io::{BufRead, BufReader};
 
-pub mod config;
-pub mod colors;
+pub mod config; // used to access the other .rs file
+pub mod colors; // this is also used to access the other .rs file
 
 
 /// This function reads a line from stdin and returns it as a String.
